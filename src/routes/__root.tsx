@@ -81,9 +81,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Portfolio of Bhavana Vasagiri — CS Engineering student, frontend developer, AI builder, and hackathon team leader." },
       { name: "author", content: "Bhavana Vasagiri" },
       { property: "og:title", content: "Bhavana Vasagiri — AI Builder & Frontend Developer" },
-      { property: "og:description", content: "Premium 3D animated portfolio showcasing projects, skills, and hackathon journey." },
+      { property: "og:description", content: "Portfolio of Bhavana Vasagiri — CS Engineering student, frontend developer, AI builder, and hackathon team leader." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Bhavana Vasagiri — AI Builder & Frontend Developer" },
+      { name: "twitter:description", content: "Portfolio of Bhavana Vasagiri — CS Engineering student, frontend developer, AI builder, and hackathon team leader." },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
